@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Cards with image in BOOTSTRAP</title>
+
+    <style>
+        body {
+            margin-top: 50px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        /* Heading Style */
+        h1 {
+            text-align: center;
+            padding-bottom: 50px;
+        }
+
+        h1 span {
+            font-weight: 900;
+        }
+
+        /* Card Style */
+
+
+        /* CARD BACKGROUND */
+
+        /* USE BACKGROUND IMAGE INSTADE OF BACKGROUND COLOR */
+        .content-left {
+            background-color: tan;
+            background-size: cover;
+            background-position: 50% 100%;
+            height: 100%;
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .content-center {
+            background-color: orange;
+            background-size: cover;
+            background-position: 50% 100%;
+            height: 100%;
+            width: 100%;
+            padding: 30px 20px;
+
+        }
+
+        .content-right {
+            background-color: powderblue;
+            background-size: cover;
+            background-position: 50% 100%;
+            height: 100%;
+            width: 100%;
+            padding: 30px 20px;
+
+        }
+
+        /* CARD TEXT STYLE */
+        .custom-card h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 900;
+            font-size: 28px;
+            text-align: left;
+            padding: 10px 0;
+        }
+
+        .custom-card h2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+            text-align: left;
+            padding: 5px 0;
+        }
+
+        .custom-card h3 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            text-align: left;
+
+        }
+
+        .custom-card a {
+            font-family: 'Roboto', sans-serif;
+            color: black;
+            font-weight: 500;
+            font-size: 16px;
+            text-align: left;
+            padding: 5px 0;
+            text-decoration: none;
+            padding-bottom: 5px;
+            border-bottom-style: solid;
+            border-bottom-width: 4px;
+            border-color: red;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Cards with image in <span>BOOTSTRAP</span></h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="custom-card content-left">
+                    <h3>TOP TRENDING</h3>
+                    <h1>SPRING TRENDS</h1>
+                    <h2>Collections</h2>
+                    <a href="#">Discover NOW</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="custom-card content-center">
+                    <h3>TOP WANTED TODAY</h3>
+                    <h1>SPRING TRENDS</h1>
+                    <h2>Jumpsuit</h2>
+                    <a href="#">Discover NOW</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="custom-card content-right">
+                    <h3>SOMETHING NEVER GET OLD</h3>
+                    <h1>For Men</h1>
+                    <h2>Collections</h2>
+                    <a href="#">Discover NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
